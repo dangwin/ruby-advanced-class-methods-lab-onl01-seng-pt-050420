@@ -42,4 +42,7 @@ end
 
 end 
 
+    def self.alphabetical(name)
+      
+
 end
