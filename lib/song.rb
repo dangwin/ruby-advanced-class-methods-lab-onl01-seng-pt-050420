@@ -44,7 +44,7 @@ end
 
     def self.alphabetical
       self.all.sort_by { |song| song.name[0] }
-end 
+  end 
 
     def self.new_from_filename(file)
       song_info = file.sub!(/.mp3/,'').split(' - ')
@@ -53,7 +53,7 @@ end
       song.name = song_info[1]
       song
       
-end 
+  end 
 
     def self.create_from_filename(file)
       song_info = file.sub!(/.mp3/,'').split(' - ')
@@ -62,12 +62,12 @@ end
       song.name = song_info[1]
       song
       
-end 
+  end 
 
     def self.destroy_all
-      self.clear_all
+      self.all.clear
 
-
+  end 
 
 end 
 
