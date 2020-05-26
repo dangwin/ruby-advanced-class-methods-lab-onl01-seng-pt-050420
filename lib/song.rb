@@ -42,7 +42,7 @@ end
 
 end 
 
-    def self.alphabetical(name)
+    def self.alphabetical
       self.all.sort_by { |song| song.name[0] }
 end 
 end 
