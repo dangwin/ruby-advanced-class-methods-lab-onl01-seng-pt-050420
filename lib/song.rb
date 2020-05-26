@@ -50,7 +50,8 @@ end
       song_info = file.sub!(/.mp3/,'').split(' - ')
       song = self.new
        song.artist_name = song_info[0]
-      song.name =
+      song.name = song_info[1]
+      song
       
 
 
