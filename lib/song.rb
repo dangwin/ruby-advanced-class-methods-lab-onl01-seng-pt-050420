@@ -34,7 +34,11 @@ end
       end 
 
     def self.find_or_create_by_name(name)
-      if !find_by_name 
+      if !find_by_name(name)
+        create_by_name(name)
+      else
+        find_by_name(name)
+        
 
 
 
