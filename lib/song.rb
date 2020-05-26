@@ -29,6 +29,6 @@ end
     end 
       
       def self.find_by_name
-        song = self.all.select { |song| 
+        song = self.all.select { |song| song.name == name 
 
 end
