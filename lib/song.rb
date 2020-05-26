@@ -43,6 +43,6 @@ end
 end 
 
     def self.alphabetical(name)
-      
+      self.all.sort
 
 end
