@@ -31,6 +31,6 @@ end
       def self.find_by_name
         song = self.all.select { |song| song.name == name }
         song[0]
-        
+      end 
 
 end
