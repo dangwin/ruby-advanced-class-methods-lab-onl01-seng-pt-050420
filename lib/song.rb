@@ -47,7 +47,8 @@ end
 end 
 
     def self.new_from_filename(file)
-      song_info = file.
+      song_info = file.sub!(/.mp3/,'').split(' - ')
+      
       
 
 
