@@ -43,6 +43,6 @@ end
 end 
 
     def self.alphabetical(name)
-      self.all.sort_by { |song| song.name[0]}
+      self.all.sort_by { |song| song.name[0] }
 end 
 end
