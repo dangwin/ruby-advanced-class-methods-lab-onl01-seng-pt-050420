@@ -46,7 +46,8 @@ end
       self.all.sort_by { |song| song.name[0] }
 end 
 
-    def self.new_from_filename
+    def self.new_from_filename(file)
+      
       
 
 
