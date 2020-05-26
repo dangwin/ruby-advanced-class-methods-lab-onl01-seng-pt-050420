@@ -28,6 +28,7 @@ end
       song 
     end 
       
-      def self.
+      def self.find_by_name
+        
 
 end
