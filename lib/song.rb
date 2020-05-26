@@ -45,4 +45,12 @@ end
     def self.alphabetical
       self.all.sort_by { |song| song.name[0] }
 end 
-end 
+
+    def self.new_from_filename
+      
+
+
+
+
+
+
